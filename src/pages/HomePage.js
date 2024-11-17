@@ -14,7 +14,7 @@ const HomePage = () => {
                     <img className="logo" src={Logo} alt="Logo" />
                     <h2>Bem-vindo ao nosso site!</h2>
                     <p>Nosso objetivo é proporcionar o melhor para o seu pet. Confira nossos serviços e mais.</p>
-                    <Button link={""} text={"Ir Para o WhatsApp"} />
+                    <Button link={"https://wa.me/5511991407988"} text={"Ir Para o WhatsApp"} />
                 </div>
             </div>
         </div>

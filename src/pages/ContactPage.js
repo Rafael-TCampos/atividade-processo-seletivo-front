@@ -16,7 +16,10 @@ const ContactSection = () => {
                 <ContactCard
                     title="Contatos"
                     icon={<FaPhoneAlt />}
-                    text="WhatsApp: (11) 9088-8769<br>Telefone: (11) 9088-8769"
+                    text={`
+                        <a href="https://wa.me/551190888769" target="_blank" rel="noopener noreferrer">Clique para abrir no WhatsApp</a><br/>
+                        Telefone: (11) 9088-8769
+                    `}
                 />
 
                 <ContactCard
@@ -27,7 +30,7 @@ const ContactSection = () => {
                 <ContactCard
                     title="Contatos Sociais"
                     icon={<IoMdChatboxes />}
-                    text="@clinicaveterinaria.vidaanimal <br> vidaanimal@gmail.com"
+                    text={`<a href="https://www.instagram.com/fly.vet/"> <br>@clinicaveterinaria.vidaanimal</a> vidaanimal@gmail.com`}
                 />
             </div>
         </>
